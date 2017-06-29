@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine4/style.css" />
+<script type="text/javascript" src="engine4/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+
+
+
+
+
+ 
+ 
+ 
+ <body onLoad="MM_preloadImages('imagenes/tipo de contaminacion2.jpg','imagenes/energia solar.jpg','imagenes/app10 (2).jpg','imagenes/app10 (3).jpg','imagenes/app10 (6).jpg','imagenes/app10 (39).jpg','imagenes/app10 (17).jpg','imagenes/app10 (18).jpg','imagenes/programacion (1).jpeg','imagenes/mecanica (2).JPG','imagenes/mecanica (3).jpg','imagenes/Electricidad (3).jpg')">
+ 
+ 
+ <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-black-btn-txt="Regresar" data-back-btn-theme="b">
+     <h1>Especialidades</h1>
+    </div>
+  
+<hr>
+    
+     <div data-role="main" class="ui-content" align="center">
+ <div>
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b" class="ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="#Pagina1"  target="_self" class="ui-btn t ui-icon-carat-r">
+  <h4>Programación</h4>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="#Pagina2"  target="_self" class="ui-btn  ui-icon-carat-r">
+  <h5>Mecanica Industrial</h5>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="#Pagina3"  target="_self" class="ui-btn  ui-icon-carat-r">
+  <h4>Electricidad</h4>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="#Pagina4"  target="_self" class="ui-btn  ui-icon-carat-r">
+  <h4>Logistica</h4>
+  </a>
+  </li>
+</ul>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+    <h1>Desarrollador</h1>
+          <h2> Nombre</h2>
+          <p>Pedro Aguilar Mendez</p>
+          <h2>Email</h2>
+          <p>pedro.aguilar.mendez.cbtis16@gmail.com</p>
+          <h2>Recursamiento<br>
+        </h2>
+          <h2> Especialidad</h2>
+        Programacion<br>
+        <h2> Submodulo</h2>
+        Desarrollo de aplicaciones Moviles (DAM)<br>
+        <h2> Docente</h2>
+         <p>Jose Antonio Gomez Hernandez       </p>
+          <h2>Funcionalidad</h2>
+         <p>Este programa muestra las especialidades que ofrece el CBTis 16 y el programa de estudios de cada una de ellas</p>
+         
+       <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b" class="ui-controlgroup ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="https://www.facebook.com/profile.php?id=100006397484510"  target="_self" class="ui-btn">
+  <h2>Facebook</h2>
+  </a>
+  
+  </li>
+  <li class="ui-first-child ui-last-child"><a href="https://damcbtis16.milaulas.com/"  target="_self" class="ui-btn">
+  <h2>Plataforma de DAM</h2>
+  </a>
+  </li>
+ </ul></div>
+
+</div></div></div>
+    <hr>
+  
+
+<center>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+
+    <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+      <div>
+       <h4>Cuidemos el planeta</h4>
+       <h4>Pedro Aguilar Mendez</h4>
+      </div>
+   </div>
+</div>
+
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Programación</h1>
+      </div>
+ 
+ <div data-role="main" class="ui-content" align="center">
+ <p>La carrera de Técnico en programación ofrece las competencias profesionales que permiten al
+   estudiante realizar actividades dirigidas a: analizar, diseñar, desarrollar, instalar y mantener software de
+   aplicación tomando como base los requerimientos del usuario </p>
+ <p>&nbsp;</p>
+ <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/programacion (1).jpeg',1)"><img src="imagenes/programacion.jpg" width="90%" height="50%" id="Image7"></a></p>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/programacion_1.jpg" alt="programacion (1)" title="programacion (1)" id="wows1_0"/></li>
+		<li><img src="data1/images/programacion_2.jpg" alt="programacion (2)" title="programacion (2)" id="wows1_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/programacion_3.jpg" alt="bootstrap slider" title="programacion (3)" id="wows1_2"/></a></li>
+		<li><img src="data1/images/programacion_4.jpg" alt="programacion (4)" title="programacion (4)" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="programacion (1)"><span><img src="data1/tooltips/programacion_1.jpg" alt="programacion (1)"/>1</span></a>
+		<a href="#" title="programacion (2)"><span><img src="data1/tooltips/programacion_2.jpg" alt="programacion (2)"/>2</span></a>
+		<a href="#" title="programacion (3)"><span><img src="data1/tooltips/programacion_3.jpg" alt="programacion (3)"/>3</span></a>
+		<a href="#" title="programacion (4)"><span><img src="data1/tooltips/programacion_4.jpg" alt="programacion (4)"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b" class="ui-group-theme-a ui-controlgroup">
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="http://www.dgeti.sep.gob.mx/images/multimediaDgeti/OfertaEducativaPlanteles/CarrerasEspecialidades/planesEstudio/344100002-13.pdf"  target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Leer más...</h2>
+  </a>
+  </li>
+</ul></div></div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+      <div>
+       <h4>Pedro Aguilar Mendez</h4>
+       <h4>App1</h4>
+      </div>
+     </div> 
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Mecanica Industrial</h1>
+      </div>
+ 
+ <div data-role="main" class="ui-content" align="center">
+ <p>La carrera de Mecánica Industrial ofrece las competencias profesionales que permiten al estudiante dar
+   mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas
+   convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de
+   los procesos de ajuste de piezas mecánicas. </p>
+ <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/mecanica (3).jpg',1)"><img src="imagenes/mecanica (1).jpg" width="90%" height="50%" id="Image15"></a></p>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/mecanica_2.jpg" alt="mecanica (2)" title="mecanica (2)" id="wows2_0"/></li>
+		<li><img src="data2/images/mecanica_3.jpg" alt="mecanica (3)" title="mecanica (3)" id="wows2_1"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/mecanica_4.jpg" alt="http://wowslider.com/" title="mecanica (4)" id="wows2_2"/></a></li>
+		<li><img src="data2/images/mecanica_5.jpg" alt="mecanica (5)" title="mecanica (5)" id="wows2_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="mecanica (2)"><span><img src="data2/tooltips/mecanica_2.jpg" alt="mecanica (2)"/>1</span></a>
+		<a href="#" title="mecanica (3)"><span><img src="data2/tooltips/mecanica_3.jpg" alt="mecanica (3)"/>2</span></a>
+		<a href="#" title="mecanica (4)"><span><img src="data2/tooltips/mecanica_4.jpg" alt="mecanica (4)"/>3</span></a>
+		<a href="#" title="mecanica (5)"><span><img src="data2/tooltips/mecanica_5.jpg" alt="mecanica (5)"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <div>
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b" class="ui-controlgroup ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="http://www.dgeti.sep.gob.mx/images/multimediaDgeti/OfertaEducativaPlanteles/CarrerasEspecialidades/planesEstudio/351100004-13.pdf"  target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Leer más...</h2>
+  </a>
+  </li>
+</ul></div></div></div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+      <div>
+       <h4>Pedro Aguilar Mendez</h4>
+       <h4>App1</h4>
+      </div>
+     </div> 
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Electricidad</h1>
+      </div>
+ 
+ <div data-role="main" class="ui-content" align="center">
+ La carrera de Técnico en Electricidad ofrece las competencias profesionales que permiten al estudiante
+sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios,
+capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar
+mantenimiento a máquinas eléctricas.
+
+ <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/Electricidad (3).jpg',1)"><img src="imagenes/Electricidad (4).jpg" width="90%" height="50%" id="Image24"></a></p>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/electricidad_1.jpg" alt="Electricidad (1)" title="Electricidad (1)" id="wows3_0"/></li>
+		<li><img src="data3/images/electricidad_2.jpg" alt="Electricidad (2)" title="Electricidad (2)" id="wows3_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data3/images/electricidad_3.jpg" alt="jquery slider" title="Electricidad (3)" id="wows3_2"/></a></li>
+		<li><img src="data3/images/electricidad_5.jpg" alt="Electricidad (5)" title="Electricidad (5)" id="wows3_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Electricidad (1)"><span><img src="data3/tooltips/electricidad_1.jpg" alt="Electricidad (1)"/>1</span></a>
+		<a href="#" title="Electricidad (2)"><span><img src="data3/tooltips/electricidad_2.jpg" alt="Electricidad (2)"/>2</span></a>
+		<a href="#" title="Electricidad (3)"><span><img src="data3/tooltips/electricidad_3.jpg" alt="Electricidad (3)"/>3</span></a>
+		<a href="#" title="Electricidad (5)"><span><img src="data3/tooltips/electricidad_5.jpg" alt="Electricidad (5)"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <div>
+   <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b" class="ui-controlgroup ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="http://www.dgeti.sep.gob.mx/images/multimediaDgeti/OfertaEducativaPlanteles/CarrerasEspecialidades/planesEstudio/351200001-13.pdf"  target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Leer más...</h2>
+  </a>
+  </li>
+</ul></div></div></div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+      <div>
+       <h4>Pedro Aguilar Mendez</h4>
+       <h4>App1</h4>
+      </div>
+     </div> 
+</div>
+
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Logistica</h1>
+      </div>
+ 
+ <div data-role="main" class="ui-content" align="center">
+ <p>La carrera de Técnico en logística ofrece las competencias profesionales que permiten al estudiante
+   realizar actividades dirigidas a la administración de bienes, planificando los suministros destinados al
+   almacenamiento de manera manual y electrónica, la organización de los nodos logísticos para el
+   transporte de mercancías así como, proveer los servicios y atención al cliente sobre los movimientos y
+   los costos de la cadena logística </p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','imagenes/logistica (1).jpg',0)"><img src="imagenes/logistica (1).jpeg" width="90%" height="50%" id="Image41"></a>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container4">
+<div class="ws_images"><ul>
+		<li><img src="data4/images/logistica_1.jpg" alt="logistica (1)" title="logistica (1)" id="wows4_0"/></li>
+		<li><img src="data4/images/logistica_2.jpg" alt="logistica (2)" title="logistica (2)" id="wows4_1"/></li>
+		<li><a href="http://wowslider.com"><img src="data4/images/logistica_3.jpg" alt="bootstrap carousel" title="logistica (3)" id="wows4_2"/></a></li>
+		<li><img src="data4/images/logistica_4.jpg" alt="logistica (4)" title="logistica (4)" id="wows4_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="logistica (1)"><span><img src="data4/tooltips/logistica_1.jpg" alt="logistica (1)"/>1</span></a>
+		<a href="#" title="logistica (2)"><span><img src="data4/tooltips/logistica_2.jpg" alt="logistica (2)"/>2</span></a>
+		<a href="#" title="logistica (3)"><span><img src="data4/tooltips/logistica_3.jpg" alt="logistica (3)"/>3</span></a>
+		<a href="#" title="logistica (4)"><span><img src="data4/tooltips/logistica_4.jpg" alt="logistica (4)"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine4/wowslider.js"></script>
+<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <div>
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b" class="ui-controlgroup ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  
+  <a href="http://www.dgeti.sep.gob.mx/images/multimediaDgeti/OfertaEducativaPlanteles/CarrerasEspecialidades/planesEstudio/333502003-13.pdf"  target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Leer más...</h2>
+  </a>
+  </li>
+</ul></div></div></div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+      <div>
+       <h4>Pedro Aguilar Mendez</h4>
+       <h4>App1</h4>
+      </div>
+     </div> 
+</div>
+
+
+
+
+</body>
+  </html>
+ 
